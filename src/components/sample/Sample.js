@@ -14,7 +14,7 @@ class Sample extends Component {
 
     sampleList() {
         return this.props.payload.data.map(sample => {
-            return <li key={sample.id}> {sample.sample} </li>;
+            return <li key={sample.id}> {sample.title} </li>;
         });
     }
 

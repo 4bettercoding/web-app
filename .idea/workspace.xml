@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1721885e-0f0d-47cb-a0e6-6d46ae3cf118" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/actions/sample.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sample/Sample.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reducers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reducers/sample.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/utilities/responseTypes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sample/Sample.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sample/Sample.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -54,13 +47,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="200" />
+          <entry key="js" value="205" />
           <entry key="scss" value="67" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="200" />
+          <entry key="JavaScript" value="205" />
           <entry key="SCSS" value="67" />
         </counts>
       </usages-collector>
@@ -76,8 +69,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/sample/Sample.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+            <state relative-caret-position="240">
+              <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -88,8 +81,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
+            <state relative-caret-position="225">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -140,8 +136,8 @@
         <option value="$PROJECT_DIR$/src/reducers/sample.js" />
         <option value="$PROJECT_DIR$/src/reducers/index.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/components/sample/Sample.js" />
         <option value="$PROJECT_DIR$/src/components/sample/index.js" />
+        <option value="$PROJECT_DIR$/src/components/sample/Sample.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
       </list>
     </option>
@@ -240,12 +236,12 @@
       <option name="presentableId" value="Default" />
       <updated>1555208029919</updated>
       <workItem from="1555208031040" duration="2952000" />
-      <workItem from="1555247022259" duration="4985000" />
+      <workItem from="1555247022259" duration="5748000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7937000" />
+    <option name="totallyTimeSpent" value="8700000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1218" y="23" width="1227" height="1053" extended-state="0" />
@@ -398,8 +394,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/sample/Sample.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+        <state relative-caret-position="240">
+          <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -408,8 +404,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
