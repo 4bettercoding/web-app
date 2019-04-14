@@ -1,0 +1,3 @@
+export const SAMPLE_PROCESSING = "PROCESSING";
+export const SAMPLE_RECEIVED = "RECEIVED";
+export const SAMPLE_ERROR = "ERROR";
