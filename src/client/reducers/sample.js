@@ -2,7 +2,7 @@ import {
     SAMPLE_PROCESSING,
     SAMPLE_RECEIVED,
     SAMPLE_ERROR
-} from "../shared/utilities/responseTypes";
+} from "../../shared/utilities/responseTypes";
 
 let initialState = {
     isLoading: true,

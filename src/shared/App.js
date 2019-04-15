@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
-import '../src/styles/app.scss';
-import Sample from './components/sample/Sample'
+import { Route } from "react-router";
+import './styles/app.scss';
+import routes from './routes';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Sample/>
+          { routes.map((route, i) => ( <Route key={i} {...route} /> ))}}
       </div>
     );
   }
