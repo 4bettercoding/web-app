@@ -2,33 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1721885e-0f0d-47cb-a0e6-6d46ae3cf118" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/routes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/styles/settings/settings.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/styles/tools/tools.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/styles/trumps/trumps.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack.client.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/sample.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/actions/sample.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sample/Sample.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/components/sample/Sample.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/reducers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/sample.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/reducers/sample.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/styles/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/components/_app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/styles/components/_app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/components/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/styles/components/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/components/components.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/styles/components/components.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/elements/_body.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/styles/elements/_body.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/elements/elements.scss" beforeDir="false" afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/generics/generics.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/client.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/objects/objects.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/configureStore.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/settings/settings.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/styles/elements/elements.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/tools/tools.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/styles/generics/generics.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/trumps/trumps.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/styles/objects/objects.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -55,34 +33,34 @@
           <entry key="babelrc" value="1" />
           <entry key="css" value="3" />
           <entry key="gitignore" value="1" />
-          <entry key="js" value="34" />
-          <entry key="json" value="6" />
-          <entry key="scss" value="15" />
+          <entry key="js" value="41" />
+          <entry key="json" value="8" />
+          <entry key="scss" value="16" />
           <entry key="svg" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="3" />
-          <entry key="JSON" value="7" />
-          <entry key="JavaScript" value="32" />
+          <entry key="JSON" value="9" />
+          <entry key="JavaScript" value="39" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="SCSS" value="15" />
+          <entry key="SCSS" value="16" />
           <entry key="SVG" value="1" />
           <entry key="TypeScript JSX" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="394" />
-          <entry key="json" value="96" />
+          <entry key="js" value="543" />
+          <entry key="json" value="203" />
           <entry key="scss" value="67" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JSON" value="96" />
-          <entry key="JavaScript" value="393" />
+          <entry key="JSON" value="203" />
+          <entry key="JavaScript" value="542" />
           <entry key="SCSS" value="67" />
           <entry key="TypeScript JSX" value="1" />
         </counts>
@@ -97,54 +75,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/shared/styles/app.scss">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/server/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/postcss.config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/public/client_bundle.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/public/app.css">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/client/client.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="378">
+              <caret line="56" column="56" selection-start-line="56" selection-start-column="56" selection-end-line="56" selection-end-column="56" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -152,20 +87,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/webpack.client.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/shared/App.js">
+        <entry file="file://$PROJECT_DIR$/src/client/components/sample/Sample.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="237">
+              <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -174,10 +100,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/shared/configureStore.js">
+        <entry file="file://$PROJECT_DIR$/webpack.server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
+            <state relative-caret-position="645">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="31" column="63" selection-start-line="31" selection-start-column="63" selection-end-line="31" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/shared/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -224,12 +171,14 @@
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/routes.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/shared/App.js" />
         <option value="$PROJECT_DIR$/src/client/client.js" />
         <option value="$PROJECT_DIR$/src/shared/configureStore.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/webpack.client.js" />
         <option value="$PROJECT_DIR$/postcss.config.js" />
+        <option value="$PROJECT_DIR$/webpack.server.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/shared/App.js" />
+        <option value="$PROJECT_DIR$/src/server/server.js" />
       </list>
     </option>
   </component>
@@ -250,9 +199,9 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1332" />
+    <option name="x" value="1068" />
     <option name="y" value="23" />
-    <option name="width" value="1227" />
+    <option name="width" value="1491" />
     <option name="height" value="1053" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -298,7 +247,15 @@
               <item name="web-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="reducers" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web-app" type="b2602c69:ProjectViewProjectNode" />
@@ -360,18 +317,18 @@
       <option name="presentableId" value="Default" />
       <updated>1555208029919</updated>
       <workItem from="1555208031040" duration="2952000" />
-      <workItem from="1555247022259" duration="15246000" />
+      <workItem from="1555247022259" duration="20309000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18198000" />
+    <option name="totallyTimeSpent" value="23261000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1332" y="23" width="1227" height="1053" extended-state="0" />
+    <frame x="1068" y="23" width="1491" height="1053" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29021558" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23809524" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -391,6 +348,27 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29021558" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" order="0" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -514,16 +492,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/components/sample/Sample.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -557,34 +525,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/shared/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/shared/styles/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/postcss.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -597,9 +541,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/public/app.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/client/client.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -610,10 +551,73 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/build/public/app.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/webpack.client.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/bundle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="31" column="63" selection-start-line="31" selection-start-column="63" selection-end-line="31" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shared/styles/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/components/sample/Sample.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shared/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="56" column="56" selection-start-line="56" selection-start-column="56" selection-end-line="56" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
